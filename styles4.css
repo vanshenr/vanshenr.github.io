@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(244, 236, 225, 0.932);
+}
+h1 {
+    border: 3px solid rgb(39, 39, 39);
+    scrollbar-width: thin;
+    border-radius: 15%;
+    padding-left: 50px;
+    margin-inline-end: 750px;
+}
+p {
+    background-color: rgb(207, 195, 251);
+    border-radius: 15%;
+    margin-inline-end: 900px;
+    margin-inline-start: 100px;
+}
+p {
+    padding-left: 85px;
+}
