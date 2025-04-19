@@ -1,24 +1,19 @@
-.color-example{
-    color:aqua;
-    background-color:#FF5B3A;
-    border:1px solid #44FF54;
+body {
+    background-color: rgba(244, 236, 225, 0.932);
 }
-.header-example{
-    font-size: larger;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:blueviolet;
+h1 {
+    border: 3px solid rgb(39, 39, 39);
+    scrollbar-width: thin;
+    border-radius: 15%;
+    padding-left: 50px;
+    margin-inline-end: 750px;
 }
-.list-example{
-    list-style-type: square;
-    color: darkblue;
+p {
+    background-color: rgb(207, 195, 251);
+    border-radius: 15%;
+    margin-inline-end: 900px;
+    margin-inline-start: 100px;
 }
-.text-example{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: xx-large;
-    text-transform: capitalize;
-    text-decoration: underline;
-}
-.div-example{
-    background-color: deeppink;
-    border: 1px solid #0059FF;
+p {
+    padding-left: 85px;
 }
