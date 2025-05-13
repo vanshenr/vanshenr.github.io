@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>Startup</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button">Startup</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Startuppimme</a>
+      <a href="#about" class="w3-bar-item w3-button">Ketä olemme</a>
+      <a href="#contact" class="w3-bar-item w3-button">Yhteydenotto</a>
+      <a href="pääsivu.html" target="_blank" class="w3-bar-item w3-button">Pilvipalvelu Oy</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src=img/startup.jpg alt="startup" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Startup</b></span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px"></div>
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Startuppimme</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Jäätelö OY</div>
+        <img src="img/jäätelö.jpg" alt="jäätelö" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Autokorjaamo OY</div>
+        <img src="img/auto.jpg" alt="auto" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Kukkakauppa OY</div>
+        <img src="img/kukka.jpg" alt="kukka" style="width:100%">
+      </div>
+    </div>
+
+    <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Ketä olemme</h3>
+    <p>Olemme startup-niminen yritys, joka tarjoaa startup-yrityksille palveluja ja tuotteita. Meidän tiimimme koostuu asiantuntevista ja innovatiivisista ihmisistä, jotka ovat valmiita auttamaan sinua menestymään liiketoiminnassasi.</p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="img/perustaja.jpg" alt="Joni" style="width:100%">
+      <h3>Joni Mutteri</h3>
+      <p class="w3-opacity">Yrityksen perustaja</p>
+      <p>Pyrimme vain parhaaseen palveluun.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Ota yhteyttä</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="img/osakas.jpg" alt="Minna" style="width:100%">
+      <h3>Minna Mutteri</h3>
+      <p class="w3-opacity">Osakas</p>
+      <p>Vastaan yrityksen palveluiden laadunvalvonnasta.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Ota yhteyttä</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="img/asiakasvastaava.jpg" alt="Mikko" style="width:100%">
+      <h3>Mikko Mutteri</h3>
+      <p class="w3-opacity">Asiakasvastaava</p>
+      <p>Vastaan asiakashankinnasta ja asikastyytyväisyydestä.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Ota yhteyttä</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="img/myyjä.jpg" alt="Tero" style="width:100%">
+      <h3>Tero Mutteri</h3>
+      <p class="w3-opacity">Myynti ja markkinonti</p>
+      <p>Hoidan yrityksemme myynnin ja markkinoinnnin.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Ota yhteyttä</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Yhteydenotto</h3>
+    <p>Ota yhteyttä niin startataan seuraava yrityksenne menestyksekkäästi käyntiin.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Nimi" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Sähköposti" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Aihe" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Viesti" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Lähetä
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="img/helsinki.png" alt="helsinki" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
